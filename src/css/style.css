@@ -92,7 +92,6 @@ transition: all 0.3s ease;
 width: fit-content;
 display: block;
 margin: 56px auto 0 auto;
-transition: all 0.3s ease;
 }
 .hero-btn:hover {
   transform:translateY(-3px);
@@ -745,6 +744,12 @@ color: #ffffff;
 font-weight: 500;
 font-size: 24px;
 color: #ffffff;
+transition: all 0.3s ease;
+
+}
+.blog-hero-menu a:hover {
+  color: #ff8b00;
+  transform: translateY(-3px);
 }
 .blog-hero-title {
   margin-top: 248px;
